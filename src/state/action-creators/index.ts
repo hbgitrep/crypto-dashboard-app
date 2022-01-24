@@ -17,6 +17,15 @@ export const getCoinsList = () =>{
     }
 }
 
+export const setCoinsList = (coinList: coin[]) => {
+    return (dispatch: Dispatch<Action>) => {
+        dispatch({
+            type: ActionType.SET_COINS_LIST,
+            payload: coinList
+        })
+}
+}
+
 // action creator to update search text
 export const setSearchText = (searchStr: string)=> {
     return (dispatch: Dispatch<Action>) => {
