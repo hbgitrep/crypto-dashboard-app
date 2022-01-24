@@ -1,0 +1,29 @@
+.coin-card {
+    width: 300px;
+    margin:10px;
+    background-color:#eaebed;
+}
+.ant-card-head {
+    border-color: #d7d1d1
+}
+.ant-card-body {
+    display: flex;
+}
+.ant-card-head-title {
+    padding: 0px;
+}
+
+.coni-card-title {
+    display: flex;
+    align-items: center;
+}
+.coni-card-title span {
+    padding: 8px;
+}
+h4{
+    margin-bottom: 0;
+}
+.sub-title {
+    font-size: 11px;
+    color:grey;
+}
